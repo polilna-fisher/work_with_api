@@ -1,0 +1,36 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+
+.container{
+    padding: 10px;
+}
+.title{
+    color: black;
+    cursor: pointer;
+}
+.btn{
+    margin-bottom: 20px;
+}
+.episode_container, .question_container{
+    margin-bottom: 20px;
+}
+
+.score_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.again_btn{
+    margin-top: 20px;
+}
